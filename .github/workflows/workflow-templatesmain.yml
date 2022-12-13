@@ -5,5 +5,5 @@ jobs:
   test_schedule:
     runs-on: windows-latest
     steps:
-      - name: Not on Monday or Wednesday
+      - name: Basic Hello World
         run: echo "Hello world boys"
